@@ -1,4 +1,5 @@
 package com.example.product_service.controller;
+import com.example.product_service.feign.stock.StockServiceFeignClient;
 import com.example.product_service.repository.entity.Product;
 import com.example.product_service.request.ProductCreateRequest;
 import com.example.product_service.service.IProductRepositoryService;
